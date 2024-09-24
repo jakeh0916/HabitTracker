@@ -46,16 +46,21 @@
 
   // Current User Data.
   // (DEBUG: To load/demo a particular user, set it here.)
-  let userData = new UserData("Jake Huseman", "2024-09-20");
+  let userData = new UserData("", ""); // Example Data: new UserData("Jake Huseman", "2024-09-20");
 
   // Current Habits.
   // (DEBUG: To load/demo some particular habits, set them here.)
   let habitDatas = [
+
+    /* Example Data:
+
     new HabitData("Walk the dog", "walk the dog sometime after 2pm each day", "binary", "2024-09-20: Success\n2024-09-21: Success\n2024-09-22: Success\n"),
     new HabitData("Go to the gym", "need to workout every day. go to gym around 9am?", "binary", "2024-09-20: Success\n2024-09-21: Fail!\n2024-09-22: Success\n"),
     new HabitData("Drink 10 cups of water!", "gotta drink more water!", "number", "2024-09-20: 11 Cups\n2024-09-21: 10 Cups\n2024-09-22: 8 Cups (or so)\n"),
     new HabitData("Do homework", "someone's gotta do it", "binary", "2024-09-20: Success\n2024-09-21: Success\n2024-09-22: Success\n"),
     new HabitData("Check canvas", "check canvas after classes, before bed!", "binary", "2024-09-20: Success\n2024-09-21: Success\n2024-09-22: Success\n"),
+    */
+
   ]
 
   // Night mode toggle. The application can be toggled between day (light) and night (dark) modes.
